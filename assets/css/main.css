@@ -12,13 +12,12 @@
 	color: black;
 }
 
-body {
-	font-size: 1.1em;
-
+#footer a, #contact a {
+	color: #15ffbb; !important;
 }
 
 body p {
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 1.1em;
 }
 
@@ -28,6 +27,7 @@ body p {
 
 body::-webkit-scrollbar { width: 0 !important }
 #intro {
+	background-color: #a200ff;
 
 }
 #intro h1{
@@ -37,7 +37,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	/*font-weight: bold;*/
 }
 #intro p {
-	font-weight: bold; !important;
+	/*font-weight: bold; !important;*/
 	color: lightgray;
 }
 
@@ -52,7 +52,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	/*font-weight: bold;*/
 }
 #professional ul li {
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #professional h2 {
 	text-shadow: 2px 2px 8px black;
@@ -92,7 +92,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	color: gray;
+	color: #b1b1b1;
 }
 #projects h1 {
 	color: gray;
@@ -110,6 +110,7 @@ body::-webkit-scrollbar { width: 0 !important }
 #contact h1 {
 	text-shadow: 2px 2px 8px black;
 	font-size: 4.5rem;
+	color: #15ffbb;
 	/*font-weight: bold;*/
 }
 #contact h2, label {
@@ -4001,7 +4002,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		/*background-image: url("images/intro.svg");*/
+		/*background-image: linear-gradient(#a200ff,gray),  url("images/code.jpg");*/
 		background-color: #a200ff;
 		background-position: top right;
 		background-repeat: no-repeat;
@@ -4010,7 +4011,7 @@ input, select, textarea {
 
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1.1em;
 		}
 
 			@media screen and (max-width: 980px) {
