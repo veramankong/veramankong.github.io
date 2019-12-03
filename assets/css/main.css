@@ -6,6 +6,125 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*Custom Styles*/
+
+.fa {
+	color: black;
+}
+
+body {
+	font-size: 1.1em;
+
+}
+
+body p {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.shadow {
+	text-shadow: 2px 2px 8px black;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+#intro {
+
+}
+#intro h1{
+	color: #15ffbb;
+	text-shadow: 2px 2px 8px black;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+#intro p b {
+	font-weight: bold; !important;
+	color: lightgray;
+}
+
+#professional {
+	background: #283044;
+	color: #686e7c;
+}
+#professional h1 {
+	color: #a200ff;
+	text-shadow: 2px 2px 8px black;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+#professional ul li {
+	font-weight: bold;
+}
+#professional h3 {
+	text-shadow: 2px 2px 8px black;
+}
+#professional li::before {
+	content: "\2022";
+	font-weight: bold;
+	color: #a200ff;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1.5em;
+}
+#professional ul {
+	list-style: none; !important;
+	margin-right: 20px;
+	font-size: 1.1em;
+}
+
+#experience{
+	background-color: gray;
+}
+#experience h1 {
+	color: #15ffbb;
+	text-shadow: 2px 2px 8px black;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+#experience h3, h4 {
+	text-shadow: 2px 2px 8px black;
+}
+
+#projects {
+	background-color: #5d00de;
+	background-attachment: fixed;
+	background-image: url("images/intro.svg");
+	/*background-color: #a200ff;*/
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: gray;
+}
+#projects h1 {
+	color: gray;
+	text-shadow: 2px 2px 8px black;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+#projects h3 {
+	text-shadow: 2px 2px 8px black;
+}
+
+#contact {
+
+}
+#contact h1 {
+	text-shadow: 2px 2px 8px black;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+#contact h2, label {
+	text-shadow: 2px 2px 8px black;
+	font-family: 'Caveat', cursive; !important;
+
+}
+
+#contact label {
+	text-shadow: 2px 2px 8px black;
+	font-family: 'Caveat', cursive; !important;
+
+}
+/*----------------------------------------------*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -30,6 +149,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	/*overflow: hidden; !* Hide scrollbars *!*/
 }
 
 ol, ul {
@@ -163,7 +283,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: bold;
+		font-weight: bold; !important;
 	}
 
 	em, i {
@@ -187,7 +307,9 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 4.5em; !important;
+		font-family: 'Caveat', cursive; !important;
+		font-size: 4rem;
 	}
 
 		h1.major {
@@ -3739,7 +3861,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3748,6 +3870,7 @@ input, select, textarea {
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
+			text-shadow: 2px 2px 8px black;
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
@@ -3874,11 +3997,13 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/*background-image: url("images/intro.svg");*/
+		background-color: #a200ff;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+
 
 		#intro p {
 			font-size: 1.25em;
