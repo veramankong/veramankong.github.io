@@ -34,7 +34,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	color: #15ffbb;
 	text-shadow: 2px 2px 8px black;
 	font-size: 4.5rem;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #intro p {
 	font-weight: bold; !important;
@@ -49,7 +49,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	color: #a200ff;
 	text-shadow: 2px 2px 8px black;
 	font-size: 4.5rem;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #professional ul li {
 	font-weight: bold;
@@ -78,7 +78,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	color: #15ffbb;
 	text-shadow: 2px 2px 8px black;
 	font-size: 4.5rem;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #experience h2, h3 {
 	text-shadow: 2px 2px 8px black;
@@ -98,7 +98,7 @@ body::-webkit-scrollbar { width: 0 !important }
 	color: gray;
 	text-shadow: 2px 2px 8px black;
 	font-size: 4.5rem;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #projects h2 {
 	text-shadow: 2px 2px 8px black;
@@ -110,7 +110,7 @@ body::-webkit-scrollbar { width: 0 !important }
 #contact h1 {
 	text-shadow: 2px 2px 8px black;
 	font-size: 4.5rem;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #contact h2, label {
 	text-shadow: 2px 2px 8px black;
@@ -1946,6 +1946,8 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
+		font-family: 'Caveat', cursive;
+		text-shadow: 2px 2px 8px black;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
