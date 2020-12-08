@@ -25,6 +25,18 @@ body p {
 	text-shadow: 2px 2px 8px black;
 }
 
+.carousel-inner > .goalmine > img {
+	margin: auto;
+	width:300px;
+	height:560px;
+}
+
+.carousel-inner > .language > img {
+	margin: auto;
+	width:1000px;
+	height:560px;
+}
+
 body::-webkit-scrollbar { width: 0 !important }
 #intro {
 	background-color: #a200ff;
